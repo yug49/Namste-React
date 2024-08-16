@@ -1,0 +1,11 @@
+/node_modules
+.parcel-cache
+/dist
+/appep1(to learn).js
+/Readme.md
+/src/utils/mockdata.js
+/src/utils/useFetchAPI.js
+/ReduxStore.png
+/coverage
+/src/components/__tests__/sum.test.js
+/foodlogo temp.png

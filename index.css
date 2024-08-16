@@ -1,3 +1,374 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.ResBody{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.body{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.logo{
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.nav-items{
+    align-self: center;
+    padding-right: 20px;
+}
+
+.resCardLink{
+    text-decoration: none;
+    color: black;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: black;
+}
+
+.filter{
+    display: flex;
+}
+
+.search{
+    margin: 10px;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.nav-items > ul > li{
+    padding: 15px;
+    border: 0.5px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.login-btn{
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    width: 297px;
+    height: 590px;
+    margin: 10px;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+
+.shimmerbox-container{
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.contact{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.default-btn{
+    margin: 10px;
+}
+
+.toprated-btn{
+    margin: 10px;
+}
+
+.shimmerbutton-container{
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmersearch{
+    width: 205px;
+    height: 25px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.shimmerbutton{
+    width: 120px;
+    height: 25px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.shimmerbox{
+    width: 297px;
+    height: 590px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.respic{
+    width: 95%;
+    height: 50%;
+    padding: 2.5%;
+    border-radius: 25px;
+}
+
+.cuisine{
+    color: gray;
+    padding-left: 9px;
+}
+
+.cardlist{
+    display: flex;
+    padding: 23px 9px;
+    justify-content: space-between;
+}
+
+.rating{
+    background-color: green;
+    width: 45px;
+    height: 23px;
+    color: white;
+    text-align: center;
+}
+
+.offers{
+    padding-bottom: 50px;
+    color: maroon;
+    padding-left: 9px;
+}
+
+.resname{
+    padding-left: 9px;
+}
+
+.resDetails{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.resDetails > div{
+    margin: 10px;
+    
+}
+
+.veg{
+    height: 15px;
+    margin-top: 10px;
+}
+
+.foodName{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foodPrice{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foodRating{
+    color: green;
+    margin-bottom: 10px;
+}
+
+.foodDescription{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.itemDetails{
+    margin: 10px;
+}
+
+.foodCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.foodPic{
+    height: 185px;
+    width: 180px;
+    border-radius: 25px;
+
+}
+
+.foodDetails{
+    margin-right: 50px;
+}
+
+.ratingRestaurant{
+    width: 20px;
+}
+
+.foodTitle{
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 50px;
+}
+
+.foodTitleHeading{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foodCategoryTitle{
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 25px;
+    width: max-content;
+}
+
+.foodCategoryTitleHeading{
+    font-size: 22.5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nameCard{
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: max-content
+}
+
+.nameCard > h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shimmerFoodCard{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shimmerFoodPic{
+    height: 185px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.shimmerFoodPrice{
+    height: 15px;
+    width: 30px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimmerFoodVeg{
+    height: 15px;
+    width: 15px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimmerFoodName{
+    height: 25px;
+    width: 250px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimmerFoodRating{
+    height: 15px;
+    width: 80;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimmerFoodDes{
+    height: 15px;
+    width: 600px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimemrFoodDes2{
+    height: 15px;
+    width: 500px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.shimmermenudisplay{
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.shimmerResName{
+    height: 40px;
+    width: 350px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.shimmerResCard{
+    height: 180px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-bottom: 35px
+}
+
+.shimmerFoodHeading{
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.offline{
+    justify-content: center;
 }
